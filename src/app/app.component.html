@@ -1,0 +1,21 @@
+
+<div class ="header">
+  <h1>ENDLESS</h1>
+</div>
+<div class="main-image">
+    <div class="main-text">
+      <p style="font-size:12px">New Games & Accessories</p>
+      <p style="font-size:20px;font-family:Arial, Helvetica, sans-serif ">Monthly packages.<br>Excitement delivered  daily.</p>
+      <p style="font-size:12px; ">What's the best way to shop for the latest video games<br>and peripherals? How about never shopping at all?
+      <br>You'll get new stuff on your doorstep - every month</p>
+      <button class="button"><span>GET STARTED</span></button>
+    </div>
+</div>
+<div class="howitworks">How It Works</div>  
+<div class="flexbox">
+    <div *ngFor="let step of steps"><h2>0{{step.stepNumber}}</h2>
+         <p class="contentTitle">{{step?.versionContent[0]?.title}}</p>
+         <p style="font-size: 10px;">{{step?.versionContent[0]?.body}}</p>
+        
+  </div>
+</div>

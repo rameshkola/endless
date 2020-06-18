@@ -1,0 +1,81 @@
+.header > h1 {
+    margin : 0px;
+    background-color:black;
+    color: turquoise ;
+    padding-left: 16%;
+    text-align: left;
+    position: relative;
+    top: 30%;
+ }
+
+.main-image {
+    background-image: url("../assets/photo-couch.jpg");
+    background-color: #cccccc;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .main-text {
+    text-align: left;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding-left: 17%;
+  }
+ 
+  .flexbox
+   {
+   display: flex;
+   background-color : lightgray;
+   justify-content: center;
+   }
+   .flexbox > div
+   {
+       width: 150px;
+       margin: 20px;  
+       text-align:center;
+   }
+   .flexbox > div > h2
+   {
+      text-decoration:underline turquoise;;
+       font-size:25px ;
+   }
+    .flexbox > div > p
+   {
+   color:black;
+   text-decoration:none;
+   
+   }
+  
+   .howitworks{
+    background-color : lightgray;
+    text-align: center;
+    padding-top:10px;
+    font-family: monospace;
+    font-size: 18px;
+   }
+   .main-text > button {
+    display: inline-block;
+    border-radius: 20px;
+    background-color: turquoise;
+    border: none;
+    color:black;
+    text-align: center;
+    font-size: 12px;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding:5px;
+    width:110px;
+    
+  }
+  .contentTitle{
+    font-size: 10px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    white-space: nowrap;
+  }
